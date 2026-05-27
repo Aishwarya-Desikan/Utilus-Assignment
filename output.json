@@ -1,0 +1,97 @@
+{
+  "monthly_mrr": {
+    "2024-01": 85.0,
+    "2024-02": 185.0,
+    "2024-03": 295.0,
+    "2024-04": 410.0,
+    "2024-05": 370.0,
+    "2024-06": 480.0,
+    "2024-07": 512.0,
+    "2024-08": 532.0,
+    "2024-09": 632.0,
+    "2024-10": 699.0,
+    "2024-11": 816.0,
+    "2024-12": 981.0
+  },
+  "monthly_churn": {
+    "2024-02": 1,
+    "2024-04": 2,
+    "2024-05": 1,
+    "2024-07": 1,
+    "2024-08": 2
+  },
+  "cohort_retention": [
+    {
+      "cohort_month": "2024-01",
+      "cohort_size": 3,
+      "active_after_3_months": 2,
+      "retention_rate_3m": 0.6666666666666666
+    },
+    {
+      "cohort_month": "2024-02",
+      "cohort_size": 2,
+      "active_after_3_months": 1,
+      "retention_rate_3m": 0.5
+    },
+    {
+      "cohort_month": "2024-03",
+      "cohort_size": 3,
+      "active_after_3_months": 2,
+      "retention_rate_3m": 0.6666666666666666
+    },
+    {
+      "cohort_month": "2024-04",
+      "cohort_size": 3,
+      "active_after_3_months": 3,
+      "retention_rate_3m": 1.0
+    },
+    {
+      "cohort_month": "2024-05",
+      "cohort_size": 3,
+      "active_after_3_months": 3,
+      "retention_rate_3m": 1.0
+    },
+    {
+      "cohort_month": "2024-06",
+      "cohort_size": 3,
+      "active_after_3_months": 2,
+      "retention_rate_3m": 0.6666666666666666
+    },
+    {
+      "cohort_month": "2024-07",
+      "cohort_size": 2,
+      "active_after_3_months": 2,
+      "retention_rate_3m": 1.0
+    },
+    {
+      "cohort_month": "2024-08",
+      "cohort_size": 3,
+      "active_after_3_months": 3,
+      "retention_rate_3m": 1.0
+    },
+    {
+      "cohort_month": "2024-09",
+      "cohort_size": 3,
+      "active_after_3_months": 2,
+      "retention_rate_3m": 0.6666666666666666
+    },
+    {
+      "cohort_month": "2024-10",
+      "cohort_size": 4,
+      "active_after_3_months": 3,
+      "retention_rate_3m": 0.75
+    },
+    {
+      "cohort_month": "2024-11",
+      "cohort_size": 3,
+      "active_after_3_months": 3,
+      "retention_rate_3m": 1.0
+    },
+    {
+      "cohort_month": "2024-12",
+      "cohort_size": 7,
+      "active_after_3_months": 7,
+      "retention_rate_3m": 1.0
+    }
+  ]
+}

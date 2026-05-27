@@ -10,3 +10,5 @@
 - Cohort retention checks if customer has any active subscription 
   exactly 3 months after signup.
 - Malformed dates cause the tool to fail with a clear message.
+- Rows with malformed dates are dropped with a warning 
+  rather than failing, to allow processing to continue.

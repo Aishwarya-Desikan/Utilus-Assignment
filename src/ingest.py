@@ -101,8 +101,7 @@ def _parse_date_column(
     if invalid_mask.any():
         invalid_examples = original_values[invalid_mask].astype(str).head(3).tolist()
         examples = ", ".join(invalid_examples)
-        raise ValueError(
-            f"Invalid dates in {dataset_name}.csv column '{column}': {examples}"
-        )
+        print(f"WARNING: Dropping {invalid_mask.sum()} rows with invalid dates in {dataset_name}.csv column '{column}': {examples}")
+        parsed_values = parsed_values[~invalid_mask]
 
     return parsed_values
